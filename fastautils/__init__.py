@@ -1,2 +1,3 @@
 from .core import Sequence
-import io
+from .io import read_fasta_file
+from .operations import unmask
