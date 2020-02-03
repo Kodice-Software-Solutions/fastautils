@@ -4,7 +4,7 @@ import numpy as np
 
 from ..core import Sequence
 
-# TODO: Add support fot other fasta file type
+# TODO: Add support for other fasta file type
 VALID_FILE_EXTENSIONS = (".fasta", ".fna")
 
 
