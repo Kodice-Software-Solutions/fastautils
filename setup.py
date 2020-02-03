@@ -4,6 +4,7 @@ setup(
     author_email="efren.cabrera@kodice.dev",
     author="Efren Cabrera",
     install_requires=[
+        "click",
         "numpy"
     ],
     name="fasta",

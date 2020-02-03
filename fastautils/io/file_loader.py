@@ -32,7 +32,7 @@ def read_fasta_file(filename: str) -> List[Sequence]:
     sequences = []
     for i_experiment in range(sequences_in_file_count):
         name = lines[i_experiment*2].strip()
-        sequence = lines[i_experiment*2+1].strip()
+        sequence = lines[i_experiment*2+1].strip().upper()
         sequence = np.array(list(sequence))
         sequences.append(Sequence(name, sequence))
     return sequences
